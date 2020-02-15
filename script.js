@@ -1,11 +1,11 @@
 var submit = document.getElementById("submit");
 
-submit.addEventListener("click", function(){
+submit.addEventListener("click", function() {
     var maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
     var femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-    var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
     var dd = document.getElementById("day").value;
@@ -21,7 +21,7 @@ submit.addEventListener("click", function(){
     if (dd < 1 || dd > 31){
         alert("Please input a valid day!");
     }
-    else if(mm < 1 || mm > 12){
+    else if (mm < 1 || mm > 12){
         alert("please input a valid month!");
     }
     
