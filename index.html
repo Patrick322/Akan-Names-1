@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Akan Names</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <diV class="container">
     <h1><img src="https://img.icons8.com/ios-filled/50/000000/africa.png">AKAN NAMES</h1>
 
     <hr align="center" width="50%">
 
-    <h2>Description</h2>
+
+   <h2>Description</h2>
     <p>Akan Name comes from a traditional naming system in Ghana. A child's name is determined by th factors sorounding his or her birth.
         For example,the day of their birth or in the manner which they are born may determine which name they get irrespective of their gender.
     </p>
@@ -26,21 +30,22 @@
       <h2>Lets find your Akan name!</h2>
 
       <form>
+          <p id="output"></p>
          <lebel>first name*</lebel>
          <input type="text" class="form-control" id="name" placeholder="enter your first name" required>
          <br>
          <br>
 
          <lebel>Year*</lebel>
-         <input type="text" class="form-control" id="year" placeholder="yyyy" required>
+         <input type="number" class="form-control" id="year" placeholder="yyyy" required>
          <br>
          <br>
 
          <lebel>Month*</lebel>
-         <input type="text" class="form-control" id="month" placeholder="mm" required min="1" max="12">
+         <input type="number" class="form-control" id="month" placeholder="mm" required min="1" max="12">
 
          <lebel>Day*</lebel>
-         <input type="text" class="form-control" id="day" placeholder="dd" required min="1" max="31">
+         <input type="number" class="form-control" id="day" placeholder="dd" required min="1" max="31">
 
          <h3>Gender:</h3>
          <lebel>
@@ -54,18 +59,19 @@
                  <br>
              </div>
          </lebel>
-
          <button>
-             <a href="#akan" class="btn btn-primary" id="submit">Find Akan </a>
-         </button>
+             <a href="" class="btn btn-primary" id="submit">Submit</a>
+             </button>
          <br>
          <br>
          
          <button type="reset" class="btn btn-outline-info btn-lg">
-            Cancel
+            reset
          </button>
 
       </form>
-      <script src="script.js" type="text/javascript"></script>
+      </diV>
+
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
