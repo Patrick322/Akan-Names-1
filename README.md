@@ -30,7 +30,7 @@ https://saintiemonte10.github.io/Akan-Names/
 
 
 ## Contact info
-
+Email: claremonte53@gmail.com      
 
 ## Licence
 The MIT License (MIT)
