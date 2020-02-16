@@ -3,10 +3,19 @@ h1{
     font-family: 'Baloo', cursive;
     font-weight: 1500;
 }
+
 body{
     font-size: large;
 }
+
 .bg-img{
     background-image: url("https://bit.ly/37qUyNf");
     min-height: 390px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
 }

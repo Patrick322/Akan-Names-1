@@ -21,6 +21,7 @@ submit.addEventListener("click", function() {
     if (dd < 1 || dd > 31){
         alert("Please input a valid day!");
     }
+
     else if (mm < 1 || mm > 12){
         alert("please input a valid month!");
     }
@@ -28,9 +29,12 @@ submit.addEventListener("click", function() {
     else if(yy.toString().length !== 4) {
         alert("please input avalid year!");
     }
+
     else if(male.checked){
-        output.innerHTML = "Hurray!" + name + " .Your Akan Name Is" + maleAkanNames[daysOfWeek]; 
-    }else{
-        output.innerHTML = "Hurray!" + name + " .Your Akan Name Is" + femaleAkanNames[daysOfWeek];
+        output.innerHTML = "Hurray!" + name + " .Your Akan Name Is" + maleAkanNames[daysOfTheWeek]; 
+    }
+
+    else{
+        output.innerHTML = "Hurray!" + name + " .Your Akan Name Is" + femaleAkanNames[daysOfTheWeek];
     }
 })
