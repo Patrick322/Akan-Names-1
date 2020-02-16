@@ -26,6 +26,7 @@ The Web application loads and the user gets to fill in their first name, birthda
 * javascript
 
 ## Live link
+file:///home/clares/Documents/Akan/index.html
 
 
 ## Contact info
