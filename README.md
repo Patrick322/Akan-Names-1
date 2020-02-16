@@ -26,7 +26,7 @@ The Web application loads and the user gets to fill in their first name, birthda
 * javascript
 
 ## Live link
-file:///home/clares/Documents/Akan/index.html
+https://saintiemonte10.github.io/Akan-Names/
 
 
 ## Contact info
