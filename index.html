@@ -8,8 +8,10 @@
     <title>Akan Names</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"  type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-5">
 
                     <h2>Description</h2>
                     <p>Akan Name comes from a traditional naming system in Ghana. A child's name is determined by th
@@ -34,54 +36,50 @@
                     </p>
 
                     <h2>Did you know?</h2>
-                    <p>That the former United Nations Secretary-General and recepient of Nobel prize Koffi Anan was born
+                    <p>That the former United Nations Secretary-General and recepient of <strong>Nobel prize Koffi Anan</strong> was born
                         on a friday.Kofi is an Akan name for male born on friday.Thats fun, right?? You too can find
                         your birth day and corresponding Akan name.
                         Input your first name ,date of birth and gender and enjoy the fun!!!. </p>
 
-                    <button>
+                    <button class="btn btn-info">
                         <a href="https://en.wikipedia.org/wiki/Akan_names">Learn more</a>
                     </button>
                 </div>
 
 
                 <div class="row">
-                    <div class="col-md-8">
-                        <h2>Lets find your Akan!</h2>
+                    <div class="col-mx-7">
+                        <span class="padding right">
+                        <h2>Lets find your Akan Name!</h2>
 
-                        <form>
+                        
                             <p id="output"></p>
-                            <div>
+                            <div id="entry">
                                 <lebel>first name*</lebel>
                                 <input type="text" class="form-control" id="name" placeholder="enter your first name"
                                     required>
-                                <br>
 
                                 <lebel>Year*</lebel>
                                 <input type="number" class="form-control" id="year" placeholder="yyyy" required>
-                                <br>
 
                                 <lebel>Month*</lebel>
                                 <input type="number" class="form-control" id="month" placeholder="mm" required min="1"
                                     max="12">
-                                <br>
 
                                 <lebel>Day*</lebel>
                                 <input type="number" class="form-control" id="day" placeholder="dd" required min="1"
                                     max="31">
+                                    <br>
 
-                                <h3>Gender:</h3>
+                                <h2>Gender:</h2>
                                 <lebel>
                                     <div class=radio>
-                                        <input type="radio" name="gender" id="male"><span class="gen">Male</span>
-                                        <br>
-                                        <br>
+                                    <label class="radio-inline"><input type="radio" name="optradio" id="male" checked>Male</label>
 
-                                        <input type="radio" name="gender" id="female"><span class="gen">Female</span>
-                                        <br>
-                                        <br>
+                                    <label class="radio-inline"><input type="radio" name="optradio" id="female">Female</label>
 
-                                    </div>
+                                       </div>
+                                       </span>
 
                             </div>
                             </lebel>
@@ -91,15 +89,14 @@
                                     <a href="" class="btn btn-primary" id="submit">submit</a>
                                 </button>
 
-                                <br>
-                                <br>
-
                                 <button type="reset" class="btn btn-outline-info btn-lg">
                                     cancel
                                 </button>
+                                <br>
+                                <br>
+                                <br>
 
                             </div>
-                        </form>
 
                         </form>
                     </div>
