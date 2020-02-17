@@ -32,10 +32,10 @@ submit.addEventListener("click", function() {
     }
 
     else if(male.checked){
-        output.innerHTML = "Hurray!" + name + " .Your Akan Name is" + maleAkanNames[daysOfWeek]; 
+        alert("Hurray!.." + " "+ name + " " +"your Akan name is" + " "+ maleAkanNames[daysOfWeek] + " " +"your born on" + " " + daysOfTheWeek[daysOfWeek] );
     }
     
     else{
-        output.innerHTML = "Hurray!" + name + " .Your Akan Name is" + femaleAkanNames[daysOfWeek];
+        alert("Hurray!.." + " " + name + " " + "your Akan name is" + " " + femaleAkanNames[daysOfWeek] + " " +"your born on" + " " + daysOfTheWeek[daysOfWeek]);
     }
 })
