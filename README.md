@@ -21,10 +21,10 @@ The Web application loads and the user gets to fill in their first name, birthda
 
 ## Technologies used
 
-* html
-* css
-* bootstrap
-* javascript
+* html - to structure my web page
+* css - to style my page
+* bootstrap - to style my page
+* javascript - to create functionality in my page
 
 ## Live link
 https://saintiemonte10.github.io/Akan-Names/
